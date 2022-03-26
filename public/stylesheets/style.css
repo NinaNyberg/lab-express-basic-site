@@ -1,0 +1,25 @@
+body {
+  color: darkolivegreen;
+  background-color: beige;
+}
+
+.menu {
+  background-color: brown;
+  padding: 0.5em 1em 0.5em 0;
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+}
+
+a {
+  text-decoration: none;
+  text-shadow: 4em;
+  font-weight: 600;
+  color: beige;
+}
