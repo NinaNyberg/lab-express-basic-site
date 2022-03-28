@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/NinaNyberg/lab-express-basic-site#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "hbs": "^4.2.0"
   }
 }

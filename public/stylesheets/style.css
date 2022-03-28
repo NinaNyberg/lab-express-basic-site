@@ -3,18 +3,29 @@ body {
   background-color: beige;
 }
 
-.menu {
-  background-color: brown;
-  padding: 0.5em 1em 0.5em 0;
-  display: flex;
-  flex-direction: row;
+h1 {
+  width: 100%;
+  margin: auto;
 }
 
-ul {
+nav {
+  background-color: brown;
+  padding: 0.5em 1em;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  justify-items: center;
+  justify-content: space-between;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-items: auto;
+}
+
+.card img {
+  height: 400px;
+  object-fit: cover;
 }
 
 a {
