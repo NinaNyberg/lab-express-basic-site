@@ -57,3 +57,11 @@ a:hover {
   width: 100%;
   height: auto;
 }
+
+#form-btn {
+  color: darkolivegreen;
+}
+
+#form-btn:hover {
+  color: white;
+}
